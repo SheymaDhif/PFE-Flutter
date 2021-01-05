@@ -1,0 +1,256 @@
+{
+  "id": "065e34db-7206-4fed-a24b-cd0e76f3e6c7",
+  "name": "i like it",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "welcome",
+    "memory",
+    "game",
+    "evaluation",
+    "waves"
+  ],
+  "contexts": [
+    "welcome",
+    "memory",
+    "game",
+    "evaluation",
+    "waves"
+  ],
+  "endInteraction": true,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "actions_intent_PERMISSION"
+    },
+    {
+      "name": "actions_intent_DATETIME"
+    },
+    {
+      "name": "actions_intent_GET_QUOTATION"
+    },
+    {
+      "name": "actions_intent_OPTION"
+    },
+    {
+      "name": "actions_intent_PLACE"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "welcome",
+          "lifespan": 5
+        },
+        {
+          "name": "memory",
+          "lifespan": 5
+        },
+        {
+          "name": "game",
+          "lifespan": 5
+        },
+        {
+          "name": "evaluation",
+          "lifespan": 5
+        },
+        {
+          "name": "waves",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "number",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": true,
+          "prompts": [],
+          "value": "$number",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "age",
+          "dataType": "@sys.age",
+          "isList": false,
+          "required": true,
+          "prompts": [],
+          "value": "$number",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "i am good",
+            "i have 30years old",
+            "yes i like it",
+            "no sorry it is bad",
+            "so so"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i like it",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "94f09ce4-d3f9-4f9e-addc-35032bce18e5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "female",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a4f8bce9-7548-4a0b-ab5c-87745e170dc6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i am ",
+          "userDefined": false
+        },
+        {
+          "text": "30",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": "y.old",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d6365850-224b-49a0-9699-3d1466bdb565",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "good",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "26cbbc20-9f15-4904-91cb-8a068658c198",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "your job",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "aa8bf19c-e5ac-48d0-bf84-81916b23820e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "would you please define your gender",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "916b9eb4-b3a2-4c2c-a6ab-767c5b881824",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how old are you ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bb685f39-4a8f-438a-8992-7218c4f94983",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what do you think about our evaluation?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "eba142a5-4445-4465-b146-6c90a0908686",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hey how are  you?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "67708ae1-e336-44b8-a032-44825b92b4ac",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Welcome",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0483af11-5cd6-478a-88bd-7c281b2f1249",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
